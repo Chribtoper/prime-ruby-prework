@@ -1,7 +1,7 @@
 def prime?(int)
-number = 1
+number = 0
 abs = int.abs 
-until number == abs-1 
+until number == abs
 if abs % number == 0 || int == 0
   return false
 elsif abs == 1
