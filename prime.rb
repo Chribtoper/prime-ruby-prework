@@ -1,9 +1,10 @@
-prime?(int)
-until number == int
-check = int % number
-if check == 0 && number != 1 && number != int
-  false
-  end
+def prime?(int)
+number = 2
+until number == int-1 
+if int % number == 0 
+  return false
 end
-true
+number += 1
 end
+return true
+end 
