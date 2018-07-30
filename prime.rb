@@ -1,8 +1,9 @@
 def prime?(int)
-  
-  if int == 0
+number = 2
+abs = int.abs   
+  if abs == 0
     return false
-    elsif int == 1 || int == 2 
+    elsif abs == 1 || abs == 2 
     return true
   end
 until number == abs
