@@ -1,15 +1,14 @@
 def prime?(int)
 number = 2
-abs = int.abs   
-  if abs == 0
+  if int == 0 || int < 0 
     return false
-    elsif abs == 1 || abs == 2 
+    elsif int == 1 || int == 2 
     return true
   end
-until number == abs
-if abs % number == 0 || int == 0
+until number == int
+if int % number == 0 || int == 0
   return false
-elsif abs == 1
+elsif int == 1
 return true
 end
 number += 1
